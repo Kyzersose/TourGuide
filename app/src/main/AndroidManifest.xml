@@ -17,16 +17,17 @@
         </activity>
         <activity
             android:name=".Dining"
-            android:label="Dining"/>
+            android:label="Dining" />
         <activity
             android:name=".Lodging"
-            android:label="Lodging"/>
+            android:label="Lodging" />
         <activity
             android:name=".Fun"
-            android:label="Fun"/>
+            android:label="Fun" />
         <activity
             android:name=".Spooky"
-            android:label="Spooky"></activity>
+            android:label="Spooky" />
+        <activity android:name=".LocationDetails"></activity>
     </application>
 
 </manifest>

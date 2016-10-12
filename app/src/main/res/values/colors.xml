@@ -7,4 +7,5 @@
     <color name="lodgingColor">#4db6ac</color>
     <color name="funColor">#ff1744</color>
     <color name="spookyColor">#8e24aa</color>
+    <color name="backgroundColor">#a1887f</color>
 </resources>

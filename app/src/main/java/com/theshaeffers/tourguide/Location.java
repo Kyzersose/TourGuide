@@ -6,22 +6,22 @@ package com.theshaeffers.tourguide;
 
 public class Location {
 
-    private String mLocationName;
-    private String mLocationAddress;
-    private String mLocationDescription;
+    private int mLocationName;
+    private int mLocationAddress;
+    private int mLocationDescription;
     private int mLocationImageId;
     //add image later
     // private int mLocationImageId;
 
 
-    public Location(String mLocationName, String mLocationAddress, int mLocationImageId) {
+    public Location(int mLocationName, int mLocationAddress, int mLocationImageId) {
         this.mLocationName = mLocationName;
         this.mLocationAddress = mLocationAddress;
         this.mLocationImageId = mLocationImageId;
 
     }
 
-    public Location(String mLocationName, String mLocationAddress, String mLocationDescription,
+    public Location(int mLocationName, int mLocationAddress, int mLocationDescription,
                     int mLocationImageId) {
         this.mLocationName = mLocationName;
         this.mLocationAddress = mLocationAddress;
@@ -29,15 +29,15 @@ public class Location {
         this.mLocationImageId = mLocationImageId;
     }
 
-    public String getmLocationName() {
+    public int getmLocationName() {
         return mLocationName;
     }
 
-    public String getmLocationAddress() {
+    public int getmLocationAddress() {
         return mLocationAddress;
     }
 
-    public String getmLocationDescription() {
+    public int getmLocationDescription() {
         return mLocationDescription;
     }
 

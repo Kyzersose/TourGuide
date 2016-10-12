@@ -1,6 +1,26 @@
 <resources>
     <string name="app_name">TourGuide</string>
+    <string name="home_screen_text">Places of note in the surrounding Montgomery area.</string>
+
     <string name="el_cerrito_name">El Cerrito Mexican Grill</string>
     <string name="el_cerrito_address">2330 Cobbs Ford Service Rd, Millbrook, AL 36054</string>
     <string name="el_cerrito_description">This is the best Mexican in the tri-county area.</string>
+
+    <string name="cotton_gin_name">Prattville Cotton Gin</string>
+    <string name="cotton_gin_address">131 Bridge St, Prattville, AL 36067</string>
+    <string name="cotton_gin_description">
+        This place is spooky. Many teens have entered. Few have returned!</string>
+
+    <string name="crosses_name">Crosses Garden</string>
+    <string name="crosses_address">Bear Swamp, Elmore AL</string>
+    <string name="crosses_description">
+        Creepy on the outside, this house belongs
+        to a nice old man that\'s happy to talk to visitors</string>
+
+    <string name="spectre_name">Town of Spectre</string>
+    <string name="spectre_address">Dirt road near, Cypress Ln, Millbrook, AL 36054</string>
+    <string name="spectre_description">The film Big Fish erected a mock village.
+        What\'s left is a spooky ghost town.</string>
+
+
 </resources>

@@ -2,24 +2,31 @@ package com.theshaeffers.tourguide;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
+import android.view.View;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
+
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
 
 public class Dining extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dining);
+        setContentView(R.layout.list_views);
 
 
         //Creates a list of dining locations
-        ArrayList<Location> diningList = new ArrayList<Location>();
-        diningList.add(new Location("name","address","Description", R.mipmap.ic_launcher));
-        diningList.add(new Location("name2", "address2", "Descrip2", R.mipmap.ic_launcher));
-        diningList.add(new Location("name3", "address3", "Descrip3", R.mipmap.ic_launcher));
+        final ArrayList<Location> diningList = new ArrayList<Location>();
+        diningList.add(new Location(R.string.cotton_gin_name,
+                R.string.cotton_gin_address, R.string.cotton_gin_description, R.drawable.ic_cottongin));
+        diningList.add(new Location(R.string.crosses_name, R.string.crosses_address,
+                R.string.crosses_description, R.drawable.ic_crosses));
+        diningList.add(new Location(R.string.spectre_name,
+                R.string.spectre_address, R.string.spectre_description, R.drawable.ic_spectre));
 
         //Create the Array Adapter to be used by the ListView
         LocationAdapter adapter = new LocationAdapter(this, diningList);
@@ -27,6 +34,9 @@ public class Dining extends AppCompatActivity {
         //Set the adapter for the ListView
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
+        listView.setDivider(null);
+        listView.setDividerHeight(0);
+
     }
 
 

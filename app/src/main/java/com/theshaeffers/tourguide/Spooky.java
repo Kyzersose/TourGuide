@@ -3,14 +3,13 @@ package com.theshaeffers.tourguide;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.telecom.Call;
+
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
+
+
 import android.widget.ListView;
-import android.widget.TextView;
 
 
 import java.util.ArrayList;
@@ -25,9 +24,12 @@ public class Spooky extends AppCompatActivity {
 
         //Creates a list of dining locations
         final ArrayList<Location> diningList = new ArrayList<Location>();
-        diningList.add(new Location("name", "address", "Description", R.mipmap.ic_launcher));
-        diningList.add(new Location("name2", "address2", "Descrip2", R.mipmap.ic_launcher));
-        diningList.add(new Location("name3", "address3", "Descrip3", R.mipmap.ic_launcher));
+        diningList.add(new Location(R.string.cotton_gin_name,
+                R.string.cotton_gin_address, R.string.cotton_gin_description, R.drawable.ic_cottongin));
+        diningList.add(new Location(R.string.crosses_name, R.string.crosses_address,
+                R.string.crosses_description, R.drawable.ic_crosses));
+        diningList.add(new Location(R.string.spectre_name,
+                R.string.spectre_address, R.string.spectre_description, R.drawable.ic_spectre));
 
         //Create the Array Adapter to be used by the ListView
         LocationAdapter adapter = new LocationAdapter(this, diningList);
@@ -47,7 +49,7 @@ public class Spooky extends AppCompatActivity {
                 Location detailsLocation = diningList.get(position);
                 Log.i("Spooky", "Here's the position " + position);
                 Log.i("Spooky:", "getmLocationName() returns:" + detailsLocation.getmLocationName());
-                Log.i("Sppoky:", "getmLocationImageId() returns: "+ detailsLocation.getmLocationImageId());
+                Log.i("Sppoky:", "getmLocationImageId() returns: " + detailsLocation.getmLocationImageId());
 //                ImageView detailsImageView = (ImageView) findViewById(R.id.details_image_view);
 //                TextView detailsNameView = (TextView) findViewById(R.id.detail_location_name_view);
 //                TextView detailsAddressView =

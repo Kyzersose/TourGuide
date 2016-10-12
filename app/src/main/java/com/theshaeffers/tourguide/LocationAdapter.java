@@ -1,8 +1,6 @@
 package com.theshaeffers.tourguide;
 
 import android.app.Activity;
-import android.content.Context;
-import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,10 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
-
-import static android.R.attr.resource;
-import static android.os.Build.ID;
 
 /**
  * Created by shaefferm on 10/11/2016.

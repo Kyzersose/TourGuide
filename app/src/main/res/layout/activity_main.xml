@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="htt
+
+    p://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.theshaeffers.tourguide.MainActivity">
+    tools:context="com.theshaeffers.tourguide.MainActivity"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/spooky_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_view_item_height"
+        android:text="Spooky"
+        android:background="@color/spookyColor"/>
+    <TextView
+        android:id="@+id/fun_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_view_item_height"
+        android:text="Fun"
+        android:background="@color/funColor"/>
+
+    <TextView
+        android:id="@+id/lodging_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_view_item_height"
+        android:text="Lodging"
+        android:background="@color/lodgingColor"/>
 
     <TextView
         android:id="@+id/dining_text_view"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/list_item_height"
+        android:layout_height="@dimen/main_view_item_height"
         android:text="Dining"
         android:background="@color/diningColor"/>
     <TextView
-        android:id="@+id/lodging_text_view"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/list_item_height"
-        android:text="Lodging"
-        android:background="@color/lodgingColor"/>
-    <TextView
-        android:id="@+id/fun_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/list_item_height"
-        android:text="Fun"
-        android:background="@color/funColor"/>
-    <TextView
-        android:id="@+id/spooky_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/list_item_height"
-        android:text="Spooky"
-        android:background="@color/spookyColor"/>
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_text"/>
+
 </LinearLayout>
