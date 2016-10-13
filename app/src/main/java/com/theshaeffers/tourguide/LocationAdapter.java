@@ -1,6 +1,7 @@
 package com.theshaeffers.tourguide;
 
 import android.app.Activity;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,8 +17,13 @@ import java.util.ArrayList;
 
 public class LocationAdapter extends ArrayAdapter<Location> {
 
-    public LocationAdapter(Activity context, ArrayList<Location> diningList) {
+    //This is used to track the color of the chosen activity.
+    private int mColorResourceId;
+
+    //Constructor
+    public LocationAdapter(Activity context, ArrayList<Location> diningList, int colorResourceId) {
         super(context, 0, diningList);
+        mColorResourceId = colorResourceId;
     }
 
     @Override
@@ -49,6 +55,13 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         // Get the image resource ID from the current Location object and
         // set the image to imageView
         imageView.setImageResource(currentLocation.getmLocationImageId());
+
+        // Set the theme color for the list item
+        View textContainer = listItemView.findViewById(R.id.list_text);
+        // Find the color that the resource ID maps to
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+        // Set the background color of the text container View
+        textContainer.setBackgroundColor(color);
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView

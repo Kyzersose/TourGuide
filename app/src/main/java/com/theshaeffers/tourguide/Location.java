@@ -10,9 +10,6 @@ public class Location {
     private int mLocationAddress;
     private int mLocationDescription;
     private int mLocationImageId;
-    //add image later
-    // private int mLocationImageId;
-
 
     public Location(int mLocationName, int mLocationAddress, int mLocationImageId) {
         this.mLocationName = mLocationName;

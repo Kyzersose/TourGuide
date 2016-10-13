@@ -1,11 +1,27 @@
 <resources>
     <string name="app_name">TourGuide</string>
     <string name="home_screen_text">Places of note in the surrounding Montgomery area.</string>
+    <string name="spooky_tab">Spooky Places</string>
+    <string name="fun_tab">Fun Places</string>
+    <string name="food_tab">Food</string>
+    <string name="hotels">Hotels</string>
 
     <string name="el_cerrito_name">El Cerrito Mexican Grill</string>
     <string name="el_cerrito_address">2330 Cobbs Ford Service Rd, Millbrook, AL 36054</string>
     <string name="el_cerrito_description">This is the best Mexican in the tri-county area.</string>
 
+    <string name="mick_name">Uncle Mick\'s Cajun Market &amp; Cafe</string>
+    <string name="mick_address">136 W Main St, Prattville, AL 36067</string>
+    <string name="mick_descroption">Authentic Cajun food from a real Cajun family.</string>
+
+    <string name="tokyo_name">Tokyo Japanese Steak House &amp; Sushi Bar</string>
+    <string name="tokyo_address">High Point Town Center, 594 Pinnacle Pl, Prattville, AL 36066</string>
+    <string name="tokyo_description">Great hibachi and sushi!</string>
+    
+    <string name="vickis_name">Vicki\'s Lunch Van</string>
+    <string name="vickis_address">2520 Fairground Rd, Montgomery, AL 36107</string>
+    <string name="vickis_description">The best burger in the area.</string>
+    
     <string name="cotton_gin_name">Prattville Cotton Gin</string>
     <string name="cotton_gin_address">131 Bridge St, Prattville, AL 36067</string>
     <string name="cotton_gin_description">
@@ -21,6 +37,43 @@
     <string name="spectre_address">Dirt road near, Cypress Ln, Millbrook, AL 36054</string>
     <string name="spectre_description">The film Big Fish erected a mock village.
         What\'s left is a spooky ghost town.</string>
+
+    <string name="dev_house_name">This Android Dev\'s Home</string>
+    <string name="dev_house_address">Somewhere outside of space and time</string>
+    <string name="dev_house_description">This is a dark place.
+        Known to be frequented by zombies.</string>
+    
+    <string name="legends_name">Montgomery Marriott Prattville Hotel &amp; Conference Center at Capitol Hill</string>
+    <string name="legends_address">2500 Legends Cir, Prattville, AL 36066</string>
+    <string name="legends_description">If you\'re into golf, this is the place to stop.</string>
+    
+    <string name="hampton_name">Hampton Inn &amp; Suites Prattville</string>
+    <string name="hampton_address">2590 Cobbs Ford Rd, Prattville, AL 36066</string>
+    <string name="hampton_description">This is the second hotel I listed.</string>
+    
+    <string name="inn_name">Country Inn &amp; Suites By Carlson, Prattville, AL</string>
+    <string name="inn_address">1925 Cobbs Ford Rd, Millbrook, AL 36054</string>
+    <string name="inn_description">This is the third hotel in the list</string>
+    
+    <string name="super8_name">Super 8 Prattville</string>
+    <string name="super8_address">639 Malwest Dr, Prattville, AL 36066</string>
+    <string name="super8_description">If you have to go cheap, here\'s where you stay.</string>
+
+    <string name="bamboo_name">Bamboo Forest</string>
+    <string name="bamboo_address">800 Upper Kingston Rd, Prattville, AL 36067</string>
+    <string name="bamboo_description">I once skipped school and met my wife here.</string>
+    
+    <string name="park_name">Pratt Park</string>
+    <string name="park_address">460 Doster Rd, Prattville, AL 36067</string>
+    <string name="park_description">Great place to hang out with the kids.</string>
+    
+    <string name="festival_name">Alabama Shakespeare Festival</string>
+    <string name="festival_address">1 Festival Dr, Montgomery, AL 36117</string>
+    <string name="festival_description">Go see a play!</string>
+    
+    <string name="museum_name">Montgomery Museum of Fine Arts</string>
+    <string name="museum_address">1 Museum Dr, Montgomery, AL 36117</string>
+    <string name="museum_description">Be sure to bring bread for the ducks and geese</string>
 
 
 </resources>

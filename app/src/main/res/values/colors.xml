@@ -8,4 +8,5 @@
     <color name="funColor">#ff1744</color>
     <color name="spookyColor">#8e24aa</color>
     <color name="backgroundColor">#a1887f</color>
+    <color name="text_color">#e5e9e5</color>
 </resources>

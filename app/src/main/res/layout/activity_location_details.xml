@@ -35,9 +35,9 @@
 
         <TextView
             android:id="@+id/details_description_view"
-            android:layout_below="@id/details_location_address_view"
             style="@style/detailsTestStyle"
-            tools:text="Description" />
+            android:layout_below="@id/details_location_address_view"
+            android:text="@string/crosses_description" />
     </RelativeLayout>
 
 

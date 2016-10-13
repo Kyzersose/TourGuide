@@ -6,39 +6,47 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     android:orientation="vertical"
-    tools:context="com.theshaeffers.tourguide.MainActivity"
-    android:background="@color/backgroundColor">
+    tools:context="com.theshaeffers.tourguide.MainActivity">
 
     <TextView
         android:id="@+id/spooky_text_view"
+        style="@style/CodeFont"
         android:layout_width="match_parent"
         android:layout_height="@dimen/main_view_item_height"
-        android:text="Spooky"
-        android:background="@color/spookyColor"/>
+        android:background="@color/spookyColor"
+        android:text="@string/spooky_tab"/>
     <TextView
         android:id="@+id/fun_text_view"
+        style="@style/CodeFont"
         android:layout_width="match_parent"
         android:layout_height="@dimen/main_view_item_height"
-        android:text="Fun"
-        android:background="@color/funColor"/>
-
-    <TextView
-        android:id="@+id/lodging_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/main_view_item_height"
-        android:text="Lodging"
-        android:background="@color/lodgingColor"/>
+        android:background="@color/funColor"
+        android:text="@string/fun_tab"/>
 
     <TextView
         android:id="@+id/dining_text_view"
+        style="@style/CodeFont"
         android:layout_width="match_parent"
         android:layout_height="@dimen/main_view_item_height"
-        android:text="Dining"
-        android:background="@color/diningColor"/>
+        android:background="@color/diningColor"
+        android:text="@string/food_tab"/>
+
     <TextView
+        android:id="@+id/lodging_text_view"
+        style="@style/CodeFont"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_view_item_height"
+        android:background="@color/lodgingColor"
+        android:text="@string/hotels"/>
+
+
+    <TextView
+        style="@style/CodeFont"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="16dp"
         android:text="@string/home_screen_text"/>
 
 </LinearLayout>
