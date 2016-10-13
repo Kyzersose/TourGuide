@@ -31,7 +31,7 @@
 
         <TextView
             android:id="@+id/location_address_view"
-            style="@style/ListFont"
+            style="@style/AddressFont"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"

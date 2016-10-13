@@ -15,19 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Dining"
-            android:label="Dining" />
+            android:label="Good Places to Eat" />
         <activity
             android:name=".Lodging"
-            android:label="Lodging" />
+            android:label="Lodging Places" />
         <activity
             android:name=".Fun"
-            android:label="Fun" />
+            android:label="Fun Places" />
         <activity
             android:name=".Spooky"
-            android:label="Spooky" />
-        <activity android:name=".LocationDetails"></activity>
+            android:label="Spooky Places" />
+        <activity android:name=".LocationDetails">
+
+        </activity>
     </application>
 
 </manifest>

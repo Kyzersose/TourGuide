@@ -23,7 +23,13 @@
         <item name="android:paddingLeft">16dp</item>
     </style>
 
-    <style name="ListFont" parent="@android:style/TextAppearance.Small">
+    <style name="ListFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#e5e9e5</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+    <style name="AddressFont" parent="@android:style/TextAppearance.Small">
         <item name="android:textColor">#e5e9e5</item>
         <item name="android:typeface">monospace</item>
         <item name="android:paddingLeft">16dp</item>
